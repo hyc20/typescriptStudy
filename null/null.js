@@ -13,13 +13,13 @@ union = "hong";
 //null 타입은 null 값만 가질 수 있다
 //런타임에서 typeof 연산자를 이용해 타입을 알아보면 object 타입
 let n = null;
-console.log(n);
-console.log(typeof n);
+console.log(n); //null
+console.log(typeof n); //object
 //값을 할당하지 않은 변수는 undefined 값을 가진다
 //무언가 아예 준비가 안된 상태
 //object의 property가 없을 때도 undefined
 //런타임에서 typeof 연산자를 이용해 타입을 알아보면 undefined 타입
 let u = undefined;
-console.log(u);
-console.log(typeof u);
+console.log(u); //undefined
+console.log(typeof u); //undefined
 //# sourceMappingURL=null.js.map
